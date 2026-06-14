@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | AOG</title>
+  <meta name="description" content="Coordonnées et contacts de l’AOG." />
+  <link rel="icon" href="../assets/images/logo-aog.jpg" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Navigation principale">
+    <a class="brand" href="../index.html" aria-label="Accueil AOG">
+      <img src="../assets/images/logo-aog.jpg" alt="Logo AOG" class="brand-logo" />
+      <span><strong>AOG</strong><small>Association des Originaires de Grande Plaine</small></span>
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Ouvrir ou fermer le menu" />
+    <label for="menu-toggle" class="menu-button"><span></span><span></span><span></span></label>
+    <ul class="nav-links"><li><a href="../index.html">Accueil</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="missions.html">Missions</a></li><li><a href="projets.html">Projets</a></li><li><a href="galerie.html">Galerie</a></li><li><a href="adhesion.html" class="nav-cta">Adhérer</a></li><li><a href="contact.html" class="active">Contact</a></li></ul>
+  </nav>
+</header>
+    
+    
+<main>
+<section class="page-hero">
+    
+    <div class="page-hero-banner"> 
+    <img src="../assets/images/aog_acceuil.jpg" alt="Activité communautaire de l’AOG" />
+    <div class="page-hero-overlay">
+      <p class="eyebrow">Ansanm nou ka fè tout bagay</p>
+        <h1>Contact</h1>
+    </div>
+  </div>
+    
+    <div class="container"><p class="eyebrow">Échanger</p>
+        <p>Retrouvez les coordonnées officielles de l’AOG et les personnes référentes de l’association.</p>
+    </div>
+</section>
+    
+<section class="section">
+    <div class="container content-grid">
+        <article class="contact-card"><h2>Coordonnées de l’AOG</h2><ul class="info-list"><li><strong>Téléphones :</strong> (509) 3321 1055 / 3322 3300 / +509 4347 7947</li><li><strong>Email :</strong> <a href="mailto:granplenn@gmail.com">granplenn@gmail.com</a></li><li><strong>Site web :</strong> www.aoggranplenn.org <em>(ancien site à moderniser)</em></li><li><strong>Siège :</strong> Grande Plaine, 6e section Savane Carrée, commune de Gros-Morne</li><li><strong>Bureau administratif :</strong> 92, Rue Salomon, Centre-ville de Gros-Morne / Artibonite</li></ul>
+        </article>
+        <article class="contact-card"><h2>Référents</h2><ul class="info-list"><li><strong>Eclésias GUERISMA</strong><br>Coordinateur a.i. - +509 4347 7947</li><li><strong>JEAN Gaston</strong><br>Responsable des relations publiques - <a href="mailto:gastonjean@hotmail.com">gastonjean@hotmail.com</a></li><li><strong>Audalbert NORVILUS</strong><br>Responsable CAT AOG - <a href="mailto:naudalbert@gmail.com">naudalbert@gmail.com</a></li></ul>
+        </article>
+        
+        
+        <form class="form-card full-width" action="https://formspree.io/f/xdavyllo" method="POST">
+          <h2>Nous écrire</h2>
+
+          <div class="form-row">
+            <div>
+              <label for="nom">Nom complet</label>
+              <input id="nom" name="nom" type="text" placeholder="Votre nom" required>
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="votre@email.com" required>
+            </div>
+          </div>
+
+          <label for="objet">Objet</label>
+          <input id="objet" name="objet" type="text" placeholder="Sujet du message" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Envoyer</button>
+
+          <p>
+            <small>
+              Votre message sera transmis à l’association via le formulaire sécurisé.
+            </small>
+          </p>
+        </form>
+        
+    </div>
+    </section>
+</main>
+    
+    
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="../assets/images/logo-aog.jpg" alt="Logo AOG" class="footer-logo" />
+      <strong>Association des Originaires de Grande Plaine</strong>
+      <p class="footer-mini">Ansanm nou ka fè tout bagay</p>
+      <p class="footer-mini">Reconnue d’utilité publique à but non lucratif.</p>
+    </div>
+    <div>
+      <strong>Navigation</strong>
+      <a href="../index.html">Accueil</a>
+      <a href="../views/a-propos.html">À propos</a>
+      <a href="../views/projets.html">Projets</a>
+      <a href="../views/contact.html">Contact</a>
+    </div>
+    <div>
+      <strong>Coordonnées</strong>
+      <p>Grande Plaine, 6e section Savane Carrée, Gros-Morne, Artibonite, Haïti</p>
+      <p>Bureau administratif : 92, Rue Salomon, Centre-ville de Gros-Morne</p>
+      <p>Email : <a href="mailto:granplenn@gmail.com">granplenn@gmail.com</a></p>
+      <p>Tél. : (509) 3321 1055 / 3322 3300 / +509 4347 7947</p>
+    </div>
+  </div>
+  <p class="copyright">© <span id="current-year"></span> AOG. Tous droits réservés.</p>
+</footer>
+<script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
